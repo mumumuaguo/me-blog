@@ -1,0 +1,7 @@
+FROM java:8
+
+EXPOSE 9001
+
+ADD blog-encrypt-1.0-SNAPSHOT.jar blog-encrypt.jar
+
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/.urandom","-jar","blog-encrypt.jar"]

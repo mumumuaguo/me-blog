@@ -52,6 +52,12 @@
             <scope>system</scope>
             <systemPath>${basedir}/src/main/resources/easyAi-1.0.0.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>pers.fjl</groupId>
+            <artifactId>blog-server</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>

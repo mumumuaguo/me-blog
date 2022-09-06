@@ -6,6 +6,7 @@ import org.python.util.PythonInterpreter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import pers.fjl.blogai.service.PoemService;
+import pers.fjl.server.exception.BizException;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

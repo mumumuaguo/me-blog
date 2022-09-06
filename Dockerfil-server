@@ -1,0 +1,7 @@
+FROM java:8
+
+EXPOSE 9002
+
+ADD blog-server-1.0-SNAPSHOT.jar blog-server.jar
+
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/.urandom","-jar","blog-server.jar"]

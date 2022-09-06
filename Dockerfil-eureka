@@ -1,0 +1,7 @@
+FROM java:8
+
+EXPOSE 8686
+
+ADD blog-eureka-1.0-SNAPSHOT.jar blog-eureka.jar
+
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/.urandom","-jar","blog-eureka.jar"]

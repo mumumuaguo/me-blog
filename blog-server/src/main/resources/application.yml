@@ -21,14 +21,14 @@ spring:
 #      socketFactory:
 #      class: javax.net.ssl.SSLSocketFactory
   rabbitmq:
-    username: guest
-    password: guest
-    host: ip
+    username: mumumua
+    password: mumumua830..
+    host: 127.0.0.1
     port: 5672
   data:
     elasticsearch:
-      cluster-name: docker-cluster
-      cluster-nodes: ip:9300
+      cluster-name: es-cluster
+      cluster-nodes: 127.0.0.1:9300
       repositories:
         enabled: true
 es:
