@@ -21,8 +21,8 @@ spring:
 #      socketFactory:
 #      class: javax.net.ssl.SSLSocketFactory
   rabbitmq:
-    username: mumumua
-    password: mumumua830..
+    username: root
+    password: root
     host: 127.0.0.1
     port: 5672
   data:
